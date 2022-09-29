@@ -433,3 +433,9 @@ body .full-width {
         display: none
     }
 }
+
+@media (max-width: 400px) {
+    h2 {
+        word-break: break-all;
+    }
+}
