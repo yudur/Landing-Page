@@ -416,7 +416,7 @@ body .full-width {
         font-size: 3rem;
         line-height: 3rem;
         width: 3rem;
-        height: 3rem;
+        min-height: 3rem;
         text-align: center;
         padding: 0.5rem;
         cursor: pointer;
@@ -436,6 +436,6 @@ body .full-width {
 
 @media (max-width: 400px) {
     h2 {
-        word-break: break-all;
+        font-size: 4.5rem;
     }
 }
